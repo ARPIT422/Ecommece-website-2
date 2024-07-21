@@ -16,7 +16,7 @@ def home(request):
     return render(request,'home2.html',{'categories':categories})
 
 def contact(request):
-    return render(request,'Contact page2.html')
+    return render(request,'contact page2.html')
 
 def about(request):
     return render(request,'about us2.html')
