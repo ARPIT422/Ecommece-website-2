@@ -136,7 +136,7 @@ def profile(request):
 
 def details(request,product_id):
     product=Product.objects.get(id=product_id)
-    return render(request,'Product-details3.html',{'product':product})
+    return render(request,'product-details3.html',{'product':product})
 
 def cart(request):
     cart_items = CartItem.objects.filter(user = request.user)
